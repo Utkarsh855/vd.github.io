@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #d3e5e0;
+    border-color: black;
+}
+
+.whole_content{
+    width: 703px;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(#ed0581 , white,#ed0581);
+    border:  3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    
+ 
+}
+.container {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-content: flex-start;
+    gap: 15px;
+    /* background-image: linear-gradient(rgb(59, 2, 69), white, rgb(70, 3, 76)); */
+}
+
+
+.profile-container {
+    position: relative;
+    width: 697px;
+    height: 330px;
+    text-align: center;
+    
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.profile-pic-container {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: 3px solid rgb(43, 38, 38);
+    overflow: hidden;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.details{
+    
+    display: flex;
+    flex-direction: row;
+    gap : 30px;
+}
+.info{
+    
+    padding-left: 15px;
+    font-size: 23px;
+    color: rgb(50, 4, 106);
+    font-family: Georgia, serif;
+    text-decoration: solid;
+    font-weight: 545;
+    
+
+}
+.looking{
+    margin:51px;
+    padding: 20px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    color: rgb(92, 4, 4);
+    display: flex;
+    flex-direction: column; 
+    gap : 30px;
+    font-family: Georgia, serif;
+   border:  3px solid rgb(114, 11, 3);
+   border-radius: 10px;
+   background-color: rgb(255, 172, 205);
+
+}
+
+.name{
+    color: darkblue;
+}
+
+/* .footer{
+    height: 20px;
+    width: 25px;
+    border:  1px solid black;
+
+
+    
+} */
+ .connect{
+    height: 40px;
+    width: 120px;
+    border:  2px solid rgb(22, 10, 158);
+    border-radius: 8px;
+    background-color: rgb(205, 11, 11);
+     text-decoration-line: none ;
+     margin-left: 250px;
+     margin-bottom: 20px;
+     color: rgb(48, 232, 192);
+     font-size:25px;
+    padding-left: 17px;
+    padding-bottom:3px;
+    font-weight: 500;
+
+ }
